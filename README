@@ -1,0 +1,39 @@
+qinfo - GTK+ based ascii art text viewer
+
+
+Description
+===========
+
+qinfo is a simple GTK+ text viewer for ascii art in the CP437 codepage. The
+development focuses on keeping weight down to a minimum, only the most essential
+features are implemented in the viewer. qinfo is simple to use, is easily
+compiled, requires few libraries, and starts up quickly.
+
+This program is released under the GNU General Public License (GPL) version 2,
+see the file 'COPYING' for more information.
+
+
+Features
+========
+
+  * Complete support for CP437 text
+  * Additional console output
+  * Recent files
+  * Drag and Drop
+
+
+Installation
+============
+
+qinfo requires GTK+-2.x.x libraries.
+
+Simple install procedure:
+
+  $ tar xzvf qinfo-x.x.x.tar.gz          # unpack the sources
+  $ cd qinfo-x.x.x                       # change to the toplevel directory
+  $ ./configure                          # run the `configure' script
+  $ make                                 # build qinfo
+  [ Become root if necessary ]
+  # make install                         # install qinfo
+
+See the file 'INSTALL' for more detailed information.

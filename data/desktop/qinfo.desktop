@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=qinfo
+GenericName=Ascii art viewer
+Comment=A tiny but strong ascii art text viewer.
+Icon=qinfo
+TryExec=qinfo
+Exec=qinfo %f
+Terminal=false
+MimeType=text/plain;text/x-nfo;text/x-diz;
+Categories=Utility;Viewer;

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info">
+	<mime-type type="text/x-nfo">
+		<comment xml:lang="en">NFO document</comment>
+		<comment xml:lang="de">NFO Dokument</comment>
+		<glob pattern="*.nfo" />
+	</mime-type>
+	<mime-type type="text/x-diz">
+		<comment xml:lang="en">DIZ document</comment>
+		<comment xml:lang="de">DIZ Dokument</comment>
+		<glob pattern="*.diz" />
+	</mime-type>
+</mime-info>
